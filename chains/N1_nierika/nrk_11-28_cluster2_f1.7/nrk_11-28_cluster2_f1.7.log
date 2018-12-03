@@ -1,0 +1,11 @@
+2018-11-28_400000__4.txt	  Number of steps:400000	 Steps accepted:178688	 acc = 0.45	min(-loglike) = 342.94
+2018-11-28_400000__8.txt	  Number of steps:400000	 Steps accepted:183639	 acc = 0.46	min(-loglike) = 342.92
+2018-11-28_400000__3.txt	  Number of steps:400000	 Steps accepted:171020	 acc = 0.43	min(-loglike) = 342.92
+2018-11-28_400000__2.txt	  Number of steps:400000	 Steps accepted:171515	 acc = 0.43	min(-loglike) = 342.93
+2018-11-28_400000__5.txt	  Number of steps:400000	 Steps accepted:165962	 acc = 0.41	min(-loglike) = 342.93
+2018-11-28_400000__1.txt	  Number of steps:400000	 Steps accepted:161268	 acc = 0.4	min(-loglike) = 342.93
+2018-11-28_400000__7.txt	  Number of steps:400000	 Steps accepted:177997	 acc = 0.44	min(-loglike) = 342.93
+2018-11-28_400000__6.txt	  Number of steps:400000	 Steps accepted:176775	 acc = 0.44	min(-loglike) = 342.93
+--> Total    number    of    steps: 3200000
+--> Total number of accepted steps: 1386864
+--> Minimum of -logLike           : 342.92

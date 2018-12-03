@@ -1,0 +1,19 @@
+ param names	:  100~\omega_{b }\omega_{cdm } 100*\theta_{s }w0_{fld }     wa_{fld }     H0            \Omega_{m }   \alpha        \beta         M             \Delta_{M }   
+ R-1 values	:  0.114590	 0.060002	 0.231167	 0.627091	 1.771617	 0.472880	 0.106625	 1.531025	 0.056741	 1.272855	 1.161115	
+ Best Fit  	:  2.205974e+00	 1.203574e-01	 1.041094e+00	-9.053509e-01	-5.699954e-01	 1.421480e-01	 3.122387e+00	-1.905738e+01	-8.523709e-02	 6.919410e+01	 2.974570e-01	
+ mean      	:  2.211328e+00	 1.190594e-01	 1.040992e+00	-9.268250e-01	-3.900635e-01	 1.405085e-01	 3.118403e+00	-1.907604e+01	-6.980054e-02	 6.870817e+01	 2.996342e-01	
+ sigma     	:  nan	 nan	 6.595779e-04	 nan	 nan	 nan	 8.460641e-02	 nan	 2.095961e-02	 nan	 nan	
+
+ 1-sigma - 	:  nan	 nan	-7.519021e-04	 nan	 nan	 nan	-9.042634e-02	 nan	-2.181112e-02	 nan	 nan	
+ 1-sigma + 	:  nan	 nan	 5.672537e-04	 nan	 nan	 nan	 7.878648e-02	 nan	 2.010810e-02	 nan	 nan	
+ 2-sigma - 	:  nan	 nan	-1.246538e-03	 nan	 nan	 nan	-1.542600e-01	 nan	-3.879741e-02	 nan	 nan	
+ 2-sigma + 	:  nan	 nan	 1.261577e-03	 nan	 nan	 nan	 1.565117e-01	 nan	 4.124166e-02	 nan	 nan	
+ 3-sigma - 	:  nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma + 	:  nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+
+ 1-sigma > 	:  nan	 nan	 1.040240e+00	 nan	 nan	 nan	 3.027977e+00	 nan	-9.161166e-02	 nan	 nan	
+ 1-sigma < 	:  nan	 nan	 1.041559e+00	 nan	 nan	 nan	 3.197190e+00	 nan	-4.969244e-02	 nan	 nan	
+ 2-sigma > 	:  nan	 nan	 1.039746e+00	 nan	 nan	 nan	 2.964143e+00	 nan	-1.085980e-01	 nan	 nan	
+ 2-sigma < 	:  nan	 nan	 1.042254e+00	 nan	 nan	 nan	 3.274915e+00	 nan	-2.855888e-02	 nan	 nan	
+ 3-sigma > 	:  nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma < 	:  nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	 nan	

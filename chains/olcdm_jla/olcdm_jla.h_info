@@ -1,0 +1,19 @@
+ param names	:  \Omega_{m }   \Omega_{\Lambda }
+ R-1 values	:  0.143146	 0.150195	
+ Best Fit  	:  1.736532e-01	 5.309709e-01	
+ mean      	:  2.252661e-01	 5.777463e-01	
+ sigma     	:  1.002487e-01	 nan	
+
+ 1-sigma - 	: -8.415472e-02	 nan	
+ 1-sigma + 	:  1.163426e-01	 nan	
+ 2-sigma - 	: -2.000798e-01	 nan	
+ 2-sigma + 	:  1.739160e-01	 nan	
+ 3-sigma - 	: -2.413842e-01	 nan	
+ 3-sigma + 	:  2.449125e-01	 nan	
+
+ 1-sigma > 	:  1.411114e-01	 nan	
+ 1-sigma < 	:  3.416087e-01	 nan	
+ 2-sigma > 	:  2.518630e-02	 nan	
+ 2-sigma < 	:  3.991821e-01	 nan	
+ 3-sigma > 	: -1.611813e-02	 nan	
+ 3-sigma < 	:  4.701786e-01	 nan	

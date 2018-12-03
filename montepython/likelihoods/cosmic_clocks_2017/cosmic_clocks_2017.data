@@ -1,0 +1,4 @@
+cosmic_clocks_2017.data_directory = os.path.join(data.path['data'], 'cosmic_clocks')
+cosmic_clocks_2017.data_file = 'Hz_update_2017.dat'
+
+cosmic_clocks_2017.conflicting_experiments = ['cosmic_clocks_BC03', 'cosmic_clocks_MaStro','cosmic_clocks_BC03_all']

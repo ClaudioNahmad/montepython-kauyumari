@@ -1,0 +1,19 @@
+ param names	:  H0            100~\omega_{b }\omega_{cdm } 10^{+9}A_{s } n_{s }        \tau_{reio }  w0_{fld }     wa_{fld }     \Omega_{fld } 
+ R-1 values	:  0.175928	 1.125794	 1.009318	 2.664963	 1.370851	 0.701094	 4.628499	 2.702776	 1.478705	
+ Best Fit  	:  6.868016e+01	 2.014459e+00	 9.878180e-02	 3.812167e+00	 8.883862e-01	 1.072334e-01	 4.681723e-01	-3.720911e-01	 3.031463e-01	
+ mean      	:  6.885468e+01	 1.945173e+00	 8.030171e-02	 2.004364e+00	 9.699621e-01	 1.657568e-01	-7.757120e-01	 6.262521e-01	 5.055819e-01	
+ sigma     	:  5.544061e-01	 1.783804e-01	 1.456335e-02	 nan	 6.375343e-02	 9.932370e-02	 nan	 nan	 nan	
+
+ 1-sigma - 	: -5.499779e-01	-1.603017e-01	-1.693010e-02	 nan	-5.800385e-02	-1.646495e-01	 nan	 nan	 nan	
+ 1-sigma + 	:  5.588344e-01	 1.964592e-01	 1.219660e-02	 nan	 6.950302e-02	 3.399788e-02	 nan	 nan	 nan	
+ 2-sigma - 	: -1.078477e+00	-3.489552e-01	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 2-sigma + 	:  1.097351e+00	 3.082888e-01	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma - 	: -1.638926e+00	-4.325307e-01	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma + 	:  1.610684e+00	 4.062348e-01	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+
+ 1-sigma > 	:  6.830470e+01	 1.784872e+00	 6.337161e-02	 nan	 9.119583e-01	 1.107289e-03	 nan	 nan	 nan	
+ 1-sigma < 	:  6.941351e+01	 2.141633e+00	 9.249831e-02	 nan	 1.039465e+00	 1.997547e-01	 nan	 nan	 nan	
+ 2-sigma > 	:  6.777620e+01	 1.596218e+00	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 2-sigma < 	:  6.995203e+01	 2.253462e+00	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma > 	:  6.721575e+01	 1.512643e+00	 nan	 nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma < 	:  7.046536e+01	 2.351408e+00	 nan	 nan	 nan	 nan	 nan	 nan	 nan	

@@ -1,0 +1,5 @@
+import matplotlib.pyplot as plt
+info.to_plot = {'b0_fld', 'b1_fld'}
+info.cmaps = [plt.cm.Blues, plt.cm.Greens, plt.cm.Reds_r, plt.cm.Oranges, plt.cm.Purples, plt.cm.gray_r]
+info.cm = ['b', 'g', 'r', 'darkorange', 'purple', 'k']
+

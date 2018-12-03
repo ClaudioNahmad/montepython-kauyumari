@@ -1,0 +1,5 @@
+PANTHEON.data_directory = os.path.join(data.path['data'], 'PANTHEON')
+PANTHEON.settings       = 'full_long.dataset'
+PANTHEON.conflicting_experiments = ['JLA_simple','JLA','PANTHEON_simple']
+
+PANTHEON.use_nuisance = ['M']

@@ -1,0 +1,8 @@
+# Planck+WP 2013 best fit values for the compressed likelihood {omega_b, omega_cdm, 100*theta_s}.
+# (following eq.19 & eq.20 of arXiv:1401.4064,
+# see Table 4 of arXiv:1502.01590 for updated values with Planck 2015)
+
+import numpy as np
+distance_prior.centre = [0.022065, 0.1199, 1.041]
+distance_prior.invcov = [[ 1.98527408e7, 0.09401318e7, -0.23904972e7], [ 0.09401318e7, 0.02267473e7, 0.02045338e7], [-0.23904972e7, 0.02045338e7, 0.33599883e7]]
+

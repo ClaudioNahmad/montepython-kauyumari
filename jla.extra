@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+info.to_plot	=	{'Omega_m', 'Omega_Lambda'}
+info.cmaps	=	[plt.cm.Blues, plt.cm.Greens, plt.cm.Reds_r, plt.cm.Oranges, plt.cm.Purples, plt.cm.gray_r]
+info.cm		=	['b', 'g', 'r', 'darkorange', 'purple', 'k']
