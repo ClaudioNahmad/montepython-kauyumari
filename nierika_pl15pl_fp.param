@@ -7,7 +7,8 @@
 # montepython/likelihoods folder. Every folder there is a valid likelihood to
 # test.
 
-data.experiments=['JLA','bao_boss_dr12','Planck_highl','Planck_lowl']
+data.experiments=['JLA','bao_boss_dr12','Planck_highl']
+#,'Planck_lowl','Planck_lensing']
 #data.experiments=['bao','cosmic_clocks_BC03_all']
 #data.experiments=['Planck_highl','Planck_lowl','Planck_lensing']
 #data.experiments=['wmap','spt']
@@ -31,7 +32,7 @@ data.experiments=['JLA','bao_boss_dr12','Planck_highl','Planck_lowl']
 # the three Planck likelihoods used, only Planck_highl requires nuisance
 # parameters, therefore over_sampling has a length of two (cosmology, plus one
 # set of nuisance).
-#data.over_sampling=[1, 2]
+data.over_sampling=[1, 3]
 
 #--------------------------------------------------------------------------------------
 # NOTAS I M P O R T A N T E S ---------------------------------------------------------
@@ -90,29 +91,29 @@ data.parameters['Omega_Lambda']    = [ 0.685,    None,     None,  0.013,     1, 
 # NUISANCE PARAMETERS -----------------------------------------------------------------
 #--------------------------------------------------------------------------------------
 
-#(JLA)  ----------> M A R G I N A L I Z E D
-data.parameters['alpha']   	   = [ 0.141,    None,     None,  0,     1, 'nuisance']
-data.parameters['beta']    	   = [ 3.099,    None,     None,  0,     1, 'nuisance']
-data.parameters['M']       	   = [-19.09,    None,     None,  0,     1, 'nuisance']
-data.parameters['Delta_M'] 	   = [-0.070,    None,     None,  0,     1, 'nuisance']
-
-#(PLANCK) --------> M A R G I N A L I Z E D
-data.parameters['A_cib_217']         = [     61,    0,  200,     0,     1,'nuisance']   
+#(PLANCK) --------> O P E N
+data.parameters['A_cib_217']         = [     61,    0,  200,     7,     1,'nuisance']   
 data.parameters['cib_index']         = [   -1.3, -1.3, -1.3,     0,     1,'nuisance']   
-data.parameters['xi_sz_cib']         = [   0.13,    0,    1,     0,     1,'nuisance']	 
-data.parameters['A_sz']              = [   6.86,    0,   10,     0,     1,'nuisance'] 			      
-data.parameters['ps_A_100_100']      = [  222.9,    0,  400,     0,     1,'nuisance'] 			      
-data.parameters['ps_A_143_143']      = [     38,    0,  400,     0,     1,'nuisance'] 			      
-data.parameters['ps_A_143_217']      = [   35.2,    0,  400,     0,     1,'nuisance'] 			      
-data.parameters['ps_A_217_217']      = [  102.6,    0,  400,     0,     1,'nuisance'] 			      
-data.parameters['ksz_norm']          = [      0,    0,   10,     0,     1,'nuisance'] 			      
-data.parameters['gal545_A_100']      = [   6.75,    0,   50,     0,     1,'nuisance']   
-data.parameters['gal545_A_143']      = [   9.41,    0,   50,     0,     1,'nuisance']   
-data.parameters['gal545_A_143_217']  = [  19.28,    0,  100,     0,     1,'nuisance']   
-data.parameters['gal545_A_217']      = [   81.7,    0,  400,     0,     1,'nuisance']   
-data.parameters['calib_100T']        = [ 998.59,    0, 3000,     0, 0.001,'nuisance']  
-data.parameters['calib_217T']        = [ 995.89,    0, 3000,     0, 0.001,'nuisance']  
-data.parameters['A_planck']          = [100.028,   90,  110,     0,  0.01,'nuisance']
+data.parameters['xi_sz_cib']         = [   0.13,    0,    1,   0.3,     1,'nuisance']	 
+data.parameters['A_sz']              = [   6.86,    0,   10,   1.9,     1,'nuisance'] 			      
+data.parameters['ps_A_100_100']      = [  222.9,    0,  400,    30,     1,'nuisance'] 			      
+data.parameters['ps_A_143_143']      = [     38,    0,  400,     8,     1,'nuisance'] 			      
+data.parameters['ps_A_143_217']      = [   35.2,    0,  400,    10,     1,'nuisance'] 			      
+data.parameters['ps_A_217_217']      = [  102.6,    0,  400,    11,     1,'nuisance'] 			      
+data.parameters['ksz_norm']          = [      0,    0,   10,   4.2,     1,'nuisance'] 			      
+data.parameters['gal545_A_100']      = [   6.75,    0,   50,   1.8,     1,'nuisance']   
+data.parameters['gal545_A_143']      = [   9.41,    0,   50,   1.8,     1,'nuisance']   
+data.parameters['gal545_A_143_217']  = [  19.28,    0,  100,   4.2,     1,'nuisance']   
+data.parameters['gal545_A_217']      = [   81.7,    0,  400,   7.9,     1,'nuisance']   
+data.parameters['calib_100T']        = [ 998.59,    0, 3000,  0.73, 0.001,'nuisance']  
+data.parameters['calib_217T']        = [ 995.89,    0, 3000,   1.4, 0.001,'nuisance']  
+data.parameters['A_planck']          = [100.028,   90,  110,  0.25,  0.01,'nuisance']
+
+#(JLA)  ----------> O P E N
+data.parameters['alpha']   	   = [ 0.141,    None,     None,  0.001,     1, 'nuisance']
+data.parameters['beta']    	   = [ 3.099,    None,     None,   0.02,     1, 'nuisance']
+data.parameters['M']       	   = [-19.09,    None,     None,  0.004,     1, 'nuisance']
+data.parameters['Delta_M'] 	   = [-0.070,    None,     None,  0.004,     1, 'nuisance']
 
 #--------------------------------------------------------------------------------------
 # DERIVED PARAMETERS ------------------------------------------------------------------
@@ -131,6 +132,15 @@ data.cosmo_arguments['k_pivot'] = 0.05
 data.cosmo_arguments['output'] = 'mPk'
 data.cosmo_arguments['P_k_max_h/Mpc'] = 1.
 data.cosmo_arguments['sBBN file'] = data.path['cosmo']+'/bbn/sBBN.dat'
+
+# The base model features two massless
+# and one massive neutrino with m=0.06eV.
+# The settings below ensures that Neff=3.046
+# and m/omega = 93.14 eV
+data.cosmo_arguments['N_ur'] = 2.0328
+data.cosmo_arguments['N_ncdm'] = 1
+data.cosmo_arguments['m_ncdm'] = 0.06
+data.cosmo_arguments['T_ncdm'] = 0.71611
 
 #--------------------------------------------------------------------------------------
 # MCMC PARAMETERS ---------------------------------------------------------------------

@@ -1,0 +1,11 @@
+2018-12-01_650000__1.txt	  Number of steps:650000	 Steps accepted:262127	 acc = 0.4	min(-loglike) = 342.92
+2018-12-01_650000__8.txt	  Number of steps:650000	 Steps accepted:268529	 acc = 0.41	min(-loglike) = 342.91
+2018-12-01_650000__5.txt	  Number of steps:650000	 Steps accepted:274906	 acc = 0.42	min(-loglike) = 342.92
+2018-12-01_650000__7.txt	  Number of steps:650000	 Steps accepted:223435	 acc = 0.34	min(-loglike) = 342.91
+2018-12-01_650000__4.txt	  Number of steps:650000	 Steps accepted:267054	 acc = 0.41	min(-loglike) = 342.92
+2018-12-01_650000__2.txt	  Number of steps:650000	 Steps accepted:283815	 acc = 0.44	min(-loglike) = 342.92
+2018-12-01_650000__3.txt	  Number of steps:650000	 Steps accepted:250429	 acc = 0.39	min(-loglike) = 342.92
+2018-12-01_650000__6.txt	  Number of steps:650000	 Steps accepted:258183	 acc = 0.4	min(-loglike) = 342.92
+--> Total    number    of    steps: 5200000
+--> Total number of accepted steps: 2088478
+--> Minimum of -logLike           : 342.91

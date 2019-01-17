@@ -1,0 +1,7 @@
+2018-11-13_5000__2.txt	  Number of steps:5000	 Steps accepted:4040	 acc = 0.81	min(-loglike) = 343.01
+2018-11-13_5000__4.txt	  Number of steps:5000	 Steps accepted:4110	 acc = 0.82	min(-loglike) = 342.95
+2018-11-13_5000__3.txt	  Number of steps:5000	 Steps accepted:4200	 acc = 0.84	min(-loglike) = 342.95
+2018-11-13_5000__1.txt	  Number of steps:5000	 Steps accepted:4126	 acc = 0.83	min(-loglike) = 342.95
+--> Total    number    of    steps: 20000
+--> Total number of accepted steps: 16476
+--> Minimum of -logLike           : 342.95

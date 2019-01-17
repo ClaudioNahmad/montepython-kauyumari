@@ -1,0 +1,19 @@
+ param names	:  H0            100~\omega_{b }\omega_{cdm } b0_{fld }     b1_{fld }     \Omega_{fld } 
+ R-1 values	:  0.004342	 0.009234	 0.010723	 0.004162	 0.010380	 0.003862	
+ Best Fit  	:  6.885075e+01	 2.014977e+00	 1.316436e-01	-1.116931e+00	-5.906117e-01	 6.238609e-01	
+ mean      	:  6.877202e+01	 2.086852e+00	 1.133223e-01	-1.118380e+00	-1.465145e-01	 6.156493e-01	
+ sigma     	:  5.655972e-01	 nan	 nan	 5.860567e-02	 nan	 nan	
+
+ 1-sigma - 	: -5.474187e-01	 nan	 nan	-5.132192e-02	 nan	 nan	
+ 1-sigma + 	:  5.837758e-01	 nan	 nan	 6.588941e-02	 nan	 nan	
+ 2-sigma - 	: -1.263006e+00	 nan	 nan	 nan	 nan	 nan	
+ 2-sigma + 	:  1.244595e+00	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma - 	:  nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma + 	:  nan	 nan	 nan	 nan	 nan	 nan	
+
+ 1-sigma > 	:  6.822460e+01	 nan	 nan	-1.169702e+00	 nan	 nan	
+ 1-sigma < 	:  6.935580e+01	 nan	 nan	-1.052490e+00	 nan	 nan	
+ 2-sigma > 	:  6.750902e+01	 nan	 nan	 nan	 nan	 nan	
+ 2-sigma < 	:  7.001662e+01	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma > 	:  nan	 nan	 nan	 nan	 nan	 nan	
+ 3-sigma < 	:  nan	 nan	 nan	 nan	 nan	 nan	
