@@ -84,7 +84,9 @@ data.parameters['tau_reio']        = [  0.078,   None,     None,  0.019,     1, 
 #data.parameters['wa_fld']    	   = [  0.32,    None,     None,    0.05,     1,   'cosmo']
 
 data.parameters['b0_fld'] 	   = [-0.957,    None,     None,   0.05,     1,   'cosmo']
-data.parameters['b1_fld'] 	   = [-1.293,    None,     None,   0.05,     1,   'cosmo']
+data.parameters['b1_fld'] 	   = [   0.0,    None,     None,   0.05,     1,   'cosmo']
+data.parameters['b2_fld']          = [   0.0,    None,     None,   0.05,     1,   'cosmo']
+data.parameters['b3_fld']          = [  -0.9,    None,     None,   0.05,     1,   'cosmo']
 data.parameters['Omega_Lambda']    = [ 0.685,    None,     None,  0.013,     1,   'cosmo']
 
 #--------------------------------------------------------------------------------------
