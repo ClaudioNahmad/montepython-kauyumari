@@ -1,0 +1,7 @@
+info.to_plot = {'omega_b', 'omega_cdm', 'Omega_Lambda', 'b0_fld', 'b1_fld', 'H0'}
+
+info.legendnames = ['BAO+JLA', 'Planck TT +lowP']
+info.plot_legend_1d = False
+info.plot_legend_2d = True
+
+info.linewidth = ['0.5']
