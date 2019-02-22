@@ -1,3 +1,5 @@
+#-----CLASS v2.6.3 (branch: venadito1.0, hash: 1fa25492fa7bb87b3d7f4edea9fcd9f25e858549)-----
+
 # MONTEPYTHON 2.2.6
 #
 #--------------------------------------------------------------------------------------
@@ -63,17 +65,13 @@ data.experiments=['JLA','bao_boss_dr12']
 #data.parameters['T_cmb']          = [    2.0,	None,      None,  0.015,     1,   'cosmo']
 #data.parameters['h']              = [  0.703,    -1,        -1, 0.0065,     1,   'cosmo']
 
-#data.parameters['H0']              = [  67.31,   55.0,     85.0,   0.96,     1,   'cosmo']
+data.parameters['H0']              = [  67.31,   55.0,     85.0,   0.96,     1,   'cosmo']
 data.parameters['omega_b']         = [  2.222,   0.00,     None,  0.023,  0.01,   'cosmo']
 data.parameters['omega_cdm']       = [ 0.1197,   0.00,     None, 0.0022,     1,   'cosmo']
-
 data.parameters['A_s']             = [  2.198,   None,     None,  0.080, 1.e-9,   'cosmo']
 data.parameters['n_s']             = [ 0.9655,   None,     None, 0.0062,     1,   'cosmo']
 data.parameters['tau_reio']        = [  0.078,   None,     None,  0.019,     1,   'cosmo']
 
-#data.parameters['A_s']             = [  2.198,   None,     None,      0, 1.e-9,   'cosmo']
-#data.parameters['n_s']             = [ 0.9655,   None,     None,      0,     1,   'cosmo']
-#data.parameters['tau_reio']        = [  0.078,   None,     None,      0,     1,   'cosmo']
 #--------------------------------------------------------------------------------------
 # EQUATION-OF-STATE PARAMETERS --------------------------------------------------------
 #--------------------------------------------------------------------------------------
@@ -82,18 +80,17 @@ data.parameters['tau_reio']        = [  0.078,   None,     None,  0.019,     1, 
 #data.parameters['w0_fld']    	   = [-0.878,    None,     None,    0.05,     1,   'cosmo']
 #data.parameters['wa_fld']    	   = [  0.32,    None,     None,    0.05,     1,   'cosmo']
 
-data.parameters['b0_fld'] 	   = [-0.957,    None,     None,   0.05,     1,   'cosmo']
-data.parameters['b1_fld'] 	   = [-1.293,    None,      0.0,   0.05,     1,   'cosmo']
-#data.parameters['Omega_fld'] 	   = [ 0.685,    None,     None,  0.013,     1,   'cosmo']
-data.parameters['Omega_Lambda']    = [ 0.685,    None,     None,  0.013,     1,   'cosmo']
+data.parameters['b0_fld'] 	   = [ -0.93,    None,     None,   0.05,     1,   'cosmo']
+data.parameters['b1_fld'] 	   = [-0.337,    -1.2,      0.0,   0.05,     1,   'cosmo']
+data.parameters['Omega_fld'] 	   = [ 0.685,     0.0,      1.0,  0.013,     1,   'cosmo']
 
 #--------------------------------------------------------------------------------------
 # NUISANCE PARAMETERS -----------------------------------------------------------------
 #--------------------------------------------------------------------------------------
 
 #(JLA)  ----------> M A R G I N A L I Z E D
-data.parameters['alpha']   	   = [ 0.141,    None,     None,  0,     1, 'nuisance']
-data.parameters['beta']    	   = [ 3.099,    None,     None,  0,     1, 'nuisance']
+data.parameters['alpha']   	   = [0.141 ,    None,     None,  0,     1, 'nuisance']
+data.parameters['beta']    	   = [3.099 ,    None,     None,  0,     1, 'nuisance']
 data.parameters['M']       	   = [-19.09,    None,     None,  0,     1, 'nuisance']
 data.parameters['Delta_M'] 	   = [-0.070,    None,     None,  0,     1, 'nuisance']
 
@@ -103,13 +100,13 @@ data.parameters['Delta_M'] 	   = [-0.070,    None,     None,  0,     1, 'nuisanc
 #data.parameters['Omega_fld'] 	   = [ 0.685,    None,     None,  0,     1, 'derived']
 #data.parameters['z_reio']         = [1     ,      -1,       -1,  0,     1, 'derived']
 #data.parameters['YHe']            = [1     ,    None,     None,  0,     1, 'derived']
-data.parameters['H0']             = [1     ,    None,     None,  0,     1, 'derived']
+#data.parameters['H0']             = [1     ,    None,     None,  0,     1, 'derived']
 #data.parameters['sigma8']         = [0     ,    None,     None,  0,     1, 'derived']
 
 #--------------------------------------------------------------------------------------
 # CLASS ARGUMENTS (SPECIFIC) ----------------------------------------------------------
 #--------------------------------------------------------------------------------------
-data.cosmo_arguments['Omega_fld']  =  0.6
+#data.cosmo_arguments['Omega_fld']  =  0.6911
 data.cosmo_arguments['use_ppf']    =  'yes' 
 #data.cosmo_arguments['output'] = 'mPk,tCl'
 #data.cosmo_arguments['sBBN file'] = data.path['cosmo']+'/bbn/sBBN.dat'
@@ -131,3 +128,30 @@ data.write_step=5
 #
 #
 #
+
+
+#-----Likelihood-JLA-----
+JLA.use_nuisance = ['alpha', 'beta', 'M', 'Delta_M']
+JLA.conflicting_experiments = ['JLA_simple', 'PANTHEON', 'PANTHEON_simple']
+JLA.data_directory = '/home/claudio/physics/01_montepython/montepython-kauyumari/data/JLA'
+JLA.settings = 'jla.dataset'
+
+
+#-----Likelihood-bao_boss_dr12-----
+bao_boss_dr12.data_file = 'COMBINEDDR12_BAO_consensus_dM_Hz/BAO_consensus_results_dM_Hz.txt'
+bao_boss_dr12.rd_fid_in_Mpc = 147.78
+bao_boss_dr12.cov_file = 'COMBINEDDR12_BAO_consensus_dM_Hz/BAO_consensus_covtot_dM_Hz.txt'
+bao_boss_dr12.data_directory = '/home/claudio/physics/01_montepython/montepython-kauyumari/data'
+bao_boss_dr12.rs_rescale = 1.0
+
+
+#-----------Cosmological-arguments---------
+data.cosmo_arguments.update({'use_ppf': 'yes'})
+
+
+#--------Default-Configuration------
+data.path['cosmo']	= '/home/claudio/physics/00_class/class-venadito/N1_nearika'
+data.path['root']	= '/home/claudio/physics/01_montepython/montepython-kauyumari'
+data.path['data']	= '/home/claudio/physics/01_montepython/montepython-kauyumari/data'
+data.path['clik']	= '/home/claudio/physics/30_data/planck_likelihood_2015/plc-2.0'
+data.path['MontePython']	= '/home/claudio/physics/01_montepython/montepython-kauyumari/montepython'
